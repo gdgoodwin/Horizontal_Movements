@@ -2,6 +2,27 @@
 .Rhistory
 .Rapp.history
 
+# Ignore raw, processed, and metadata
+src/vers/*
+Processed_data/*
+Metadata/*
+Map_layers/*
+SSM_Results/*
+Output_Maps/*
+Environmental_data/*
+
+# Ignore Manuscript directory
+Manuscript/
+
+# Allow placeholder files
+!src/vers/.gitkeep
+!Processed_data/.gitkeep
+!Metadata/.gitkeep
+!Map_layers/.gitkeep
+!SSM_Results/.gitkeep
+!Output_Maps/.gitkeep
+
+
 # Session Data files
 .RData
 .RDataTmp
